@@ -1,0 +1,31 @@
+{
+  "name": "ignite-solid-03",
+  "version": "1.0.0",
+  "description": "Gympass style app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build":"tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoriadeveloper/project-gympass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoriadeveloper/project-gympass/issues"
+  },
+  "homepage": "https://github.com/vitoriadeveloper/project-gympass#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "fastify": "^4.15.0"
+  }
+}
