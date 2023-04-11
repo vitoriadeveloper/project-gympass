@@ -1,4 +1,3 @@
-import { prisma } from "@/lib/prisma";
 import { hash } from "bcryptjs";
 import { UserAlreadyExistsError } from "./errors/user-already-exists";
 import { User } from "@prisma/client";
