@@ -27,7 +27,7 @@ describe("Authenticate user case", () => {
     });
 
     it("should be able to authenticate with wrong email", async () => {
-        expect(() =>
+        await expect(() =>
             sut.execute({
                 email: "johndoe@gmail.com",
                 password: "123456",
@@ -41,7 +41,7 @@ describe("Authenticate user case", () => {
             email: "johndoe@gmail.com",
             password_hash: await hash("123456", 10),
         });
-        expect(() =>
+        await expect(() =>
             sut.execute({
                 email: "johndoe@gmail.com",
                 password: "1224344",
