@@ -18,7 +18,7 @@ Gympass style app
 - [x] Deve ser possível o usuário buscar academias proxímas (Até 10km);
 - [x] Deve ser possível o usuário buscar academias pelo nome;
 - [x] Deve ser possível o usuário realizar check-in em uma academia;
-- [ ] Deve ser possível validar o check-in do usuário;
+- [x] Deve ser possível validar o check-in do usuário;
 - [x] Deve ser possível cadastrar uma academia;
 
 
@@ -29,7 +29,7 @@ Gympass style app
 - [x] O usuário não pode fazer check-in se não estiver perto da academia (100m);
 - [x] O check-in só pode ser validado até 20 minutos após criado;
 - [x] O check-in só pode ser validado por administradores;
-- [ ] A academia só pode ser cadastrada por administradores;
+- [x] A academia só pode ser cadastrada por administradores;
 
 ## RNFs (Requsitos não funcionais)
 - [x] A senha do usuário precisa estar criptografada;
