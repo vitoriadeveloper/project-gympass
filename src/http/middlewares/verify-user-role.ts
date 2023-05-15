@@ -1,7 +1,7 @@
 import { FastifyReply, FastifyRequest } from "fastify";
 
 export function verifyUserRole(roleToVerify: "ADMIN" | "MEMBER") {
-    return (req: FastifyRequest, res: FastifyReply) => {
+    return async (req: FastifyRequest, res: FastifyReply) => {
         const { role } = req.user;
 
         if (role !== roleToVerify) {
